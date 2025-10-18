@@ -2,6 +2,7 @@
 'use client'
 
 import { useState, useEffect } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { Modal } from "./modal"
@@ -46,12 +47,12 @@ export function Navigation() {
       >
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <a
+            <Link
               href="/"
               className="text-2xl font-bold tracking-tight text-foreground hover:text-accent transition-colors duration-300 glow-accent"
             >
               Texel
-            </a>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
