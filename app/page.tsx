@@ -1,11 +1,13 @@
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { Services } from "@/components/services"
-import { Portfolio } from "@/components/portfolio"
-import { Testimonials } from "@/components/testimonials"
-import { Contact } from "@/components/contact"
-import { Navigation } from "@/components/navigation"
-import { PageWrapper } from "@/components/page-wrapper"
+import dynamic from 'next/dynamic';
+import { Navigation } from "@/components/navigation";
+import { PageWrapper } from "@/components/page-wrapper";
+
+const Hero = dynamic(() => import('@/components/hero').then(mod => mod.Hero));
+const About = dynamic(() => import('@/components/about').then(mod => mod.About));
+const Services = dynamic(() => import('@/components/services').then(mod => mod.Services));
+const Portfolio = dynamic(() => import('@/components/portfolio').then(mod => mod.Portfolio));
+const Testimonials = dynamic(() => import('@/components/testimonials').then(mod => mod.Testimonials));
+const Contact = dynamic(() => import('@/components/contact').then(mod => mod.Contact));
 
 export default function Home() {
   return (

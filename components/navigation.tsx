@@ -30,11 +30,11 @@ export function Navigation() {
   }, [isMobileMenuOpen])
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" },
+    { name: "About", href: "/#about" },
+    { name: "Services", href: "/#services" },
+    { name: "Portfolio", href: "/#portfolio" },
+    { name: "Testimonials", href: "/#testimonials" },
+    { name: "Contact", href: "/#contact" },
     { name: "Team", href: "/team" },
   ]
 
@@ -86,7 +86,7 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed inset-0 z-40 bg-background/95 backdrop-blur-sm md:hidden transition-opacity ${
+          className={`fixed inset-0 z-50 bg-background md:hidden transition-opacity ${
             isMobileMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
           onClick={() => setIsMobileMenuOpen(false)}

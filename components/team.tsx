@@ -81,7 +81,7 @@ const teamMembers = [
     name: "Affan Alam",
     role: "FrontEnd Developer",
     bio: "⚡ I’m a full-stack web developer passionate about blending clean, efficient code with stunning, user-focused design. I create modern, responsive, and high-performing websites that deliver a seamless experience across all devices. Inspired by the creativity and strategy of gaming, I bring the same energy into my work — precision, innovation, and a drive to level up every project I build.",
-    avatar: "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/486465401_122234136860226544_6999280008318679804_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-XdEOuYaRbgQ7kNvwG32qkq&_nc_oc=AdnRpVpXvoBqox-ew3FdEl0s5mPT2WjGpSWpRIr4abA654wHLhOSjDaQflQrDVomD1dT9d1hZGZI9PSDB0rvpSqx&_nc_zt=23&_nc_ht=scontent.fbir1-1.fna&_nc_gid=xGCzM-4TTpeDk2SJlJ5jKQ&oh=00_AfdpzJU1YaVX0zZMH_-n6dpwZ0V497oWFYAvz82mNvWoxQ&oe=68F8D0A2",
+    avatar: "https://media.discordapp.net/attachments/1420974677966327858/1429024092841050212/486465401_122234136860226544_6999280008318679804_n.jpg?ex=68f4a1e5&is=68f35065&hm=ef230ba6f9a47d82f103b80ac36b12715bd95d9d924cc307215b68550dafb4d6&=&format=webp&width=750&height=750",
     socials: {
       instagram: "https://www.instagram.com/whlegendgamerz_/",
       facebook: "https://www.facebook.com/whlegendgamerz",

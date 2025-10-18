@@ -1,6 +1,8 @@
-import { Team } from "@/components/team";
+import dynamic from 'next/dynamic';
 import { Navigation } from "@/components/navigation";
 import { PageWrapper } from "@/components/page-wrapper";
+
+const Team = dynamic(() => import('@/components/team').then(mod => mod.Team));
 
 export const metadata = {
   title: 'Our Team - Texel',
