@@ -140,6 +140,8 @@ const cardVariants: Variants = {
 
 export function Team() {
   const [showAffanProjects, setShowAffanProjects] = useState(false);
+  const [showSiddhaarthaProjects, setShowSiddhaarthaProjects] = useState(false);
+  const [showSamshadProjects, setShowSamshadProjects] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
@@ -179,9 +181,26 @@ export function Team() {
                   
                   {member.projects && member.projects.length > 0 && (
                     <div className="mb-8">
+                      <button 
+                        onClick={() => {
+                          if (member.name === "Siddhaartha Dhakaal (GoruorGoru)") setShowSiddhaarthaProjects(!showSiddhaarthaProjects)
+                          if (member.name === "MD Samshad") setShowSamshadProjects(!showSamshadProjects)
+                        }}
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-accent/90 transition-colors"
+                      >
+                        <Eye size={20} />
+                        <span>
+                          {(member.name === "Siddhaartha Dhakaal (GoruorGoru)" && showSiddhaarthaProjects) || (member.name === "MD Samshad" && showSamshadProjects) ? 'Hide Projects' : 'See Projects'}
+                        </span>
+                      </button>
+                    </div>
+                  )}
+
+                  {((member.name === "Siddhaartha Dhakaal (GoruorGoru)" && showSiddhaarthaProjects) || (member.name === "MD Samshad" && showSamshadProjects)) && (
+                    <div className="mb-8">
                       <h4 className="text-md font-semibold uppercase text-muted-foreground tracking-wider mb-4">Featured Projects</h4>
                       <ul className="space-y-3">
-                        {member.projects.map(p => (
+                        {member.projects?.map(p => (
                           <li 
                             key={p.name} 
                             className="glass-card rounded-lg transition-all duration-300 hover:bg-accent/10 hover:shadow-md border border-white/5"
