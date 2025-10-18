@@ -28,7 +28,7 @@ export function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold tracking-tight">Contact Us</h2>
           <p className="text-muted-foreground mt-2">
-            Have a project in mind? We'd love to hear from you.
+            Have a project in mind? We&apos;d love to hear from you.
           </p>
         </div>
 

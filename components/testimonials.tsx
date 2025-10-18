@@ -9,7 +9,7 @@ export function Testimonials() {
       name: "Aarav Patel",
       role: "Founder, InnovateNow",
       content:
-        "Texel took our rough concept and turned it into a brand that feels both modern and timeless. Their branding process is incredibly thorough, and the results speak for themselves. We've seen a significant increase in market recognition since the rebrand.",
+        "Texel took our rough concept and turned it into a brand that feels both modern and timeless. Their branding process is incredibly thorough, and the results speak for themselves. We&apos;ve seen a significant increase in market recognition since the rebrand.",
       rating: 5,
       avatar: "https://files.photosnepal.com/preview/2022/12/nepali-man-in-elegant-business-suit-professional-headshot-wearing-watch-e2y3gdfqn.jpg?size=large",
     },
@@ -17,7 +17,7 @@ export function Testimonials() {
       name: "Samyog Koirala ",
       role: "President Of Aananda Yuva Samuha",
       content:
-        "The new e-commerce platform Taxel built for us is a masterpiece. It's not only beautiful and easy to navigate, but it has also streamlined our sales process. Our online revenue has grown by 40% in the first quarter after launch. We couldn't be happier.",
+        "The new e-commerce platform Taxel built for us is a masterpiece. It&apos;s not only beautiful and easy to navigate, but it has also streamlined our sales process. Our online revenue has grown by 40% in the first quarter after launch. We couldn&apos;t be happier.",
       rating: 5,
       avatar: "https://media.discordapp.net/attachments/1420974677966327858/1428974254443069551/indownloader.app_picture_0913059001760764281.jpg?ex=68f4737b&is=68f321fb&hm=ed5a5adb5f2afd24c1afe95f23569d41aba68c9e667decee8a3283cdc47d985f&=&format=webp&width=448&height=448",
     },
@@ -40,7 +40,7 @@ export function Testimonials() {
               Client <span className="text-accent">Success Stories</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-              Don't just take our word for it. Here's what our clients have to say about working with us.
+              Don&apos;t just take our word for it. Here&apos;s what our clients have to say about working with us.
             </p>
           </div>
 
