@@ -25,11 +25,11 @@ export function About() {
   ]
 
   return (
-    <section id="about" className="py-32 bg-secondary/30 relative overflow-hidden">
+    <section id="about" ref={sectionRef} className="py-32 bg-secondary/30 relative overflow-hidden flex items-center justify-center">
       <div className="absolute top-20 left-10 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/3 rounded-full blur-3xl" />
 
-      <div className="container mx-auto px-6 relative z-10" ref={sectionRef}>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className={`text-center space-y-4 mb-16 fade-in-up ${sectionVisible ? "visible" : ""}`}>
             <h2 className="text-5xl md:text-6xl font-bold tracking-tight text-balance">Crafting Digital Excellence</h2>

@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { ArrowRight, Code } from "lucide-react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Float, MeshDistortMaterial } from "@react-three/drei"
 
@@ -11,7 +11,7 @@ function AnimatedSphere() {
       <mesh scale={2.5}>
         <icosahedronGeometry args={[1, 4]} />
         <MeshDistortMaterial
-          color="#06b6d4"
+          color="#0891b2"
           attach="material"
           distort={0.3}
           speed={1.5}
@@ -30,7 +30,7 @@ export function Hero() {
         <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
           <ambientLight intensity={0.5} />
           <directionalLight position={[10, 10, 5]} intensity={1} />
-          <pointLight position={[-10, -10, -5]} intensity={0.3} color="#06b6d4" />
+          <pointLight position={[-10, -10, -5]} intensity={0.3} color="#0891b2" />
           <AnimatedSphere />
           <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={0.3} />
         </Canvas>
@@ -40,39 +40,42 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-4 animate-fade-in">
-              <Sparkles className="w-4 h-4 text-accent" />
-              <span className="text-sm font-medium text-accent">Welcome to the Future</span>
+              <Code className="w-4 h-4 text-accent" />
+              <span className="text-sm font-medium text-accent">Full-Stack Application Experts</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-balance animate-fade-in-up">
-              Where Ideas
+              From Concept to Code,
               <br />
-              <span className="text-accent inline-block">Meet Execution</span>
+              <span className="text-accent inline-block">We Build It All</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance animate-fade-in-up stagger-1">
-              We transform bold visions into exceptional digital experiences through innovative design and cutting-edge
-              technology.
+              We are a team of passionate developers creating robust and scalable full-stack applications that power your business.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up stagger-2">
-            <Button
-              size="lg"
-              className="bg-accent text-accent-foreground hover:bg-accent/90 group hover:scale-105 transition-all duration-300"
-            >
-              Start Your Project
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline" className="hover:scale-105 transition-all duration-300 bg-transparent">
-              View Our Work
-            </Button>
+            <a href="#contact">
+              <Button
+                size="lg"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 group hover:scale-105 transition-all duration-300"
+              >
+                Start Your Project
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
+            <a href="#portfolio">
+              <Button size="lg" variant="outline" className="hover:scale-105 transition-all duration-300 bg-transparent">
+                View Our Work
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto">
             {[
-              { value: "150+", label: "Projects Delivered" },
-              { value: "98%", label: "Client Satisfaction" },
-              { value: "50+", label: "Global Clients" },
+              { value: "50+", label: "Apps Deployed" },
+              { value: "100+", label: "Users Served" },
+              { value: "20+", label: "Technologies Used" },
             ].map((stat, index) => (
               <div
                 key={index}

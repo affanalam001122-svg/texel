@@ -5,11 +5,11 @@ import { Portfolio } from "@/components/portfolio"
 import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
+import { PageWrapper } from "@/components/page-wrapper"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <PageWrapper>
       <Navigation />
       <Hero />
       <About />
@@ -17,7 +17,6 @@ export default function Home() {
       <Portfolio />
       <Testimonials />
       <Contact />
-      <Footer />
-    </main>
+    </PageWrapper>
   )
 }

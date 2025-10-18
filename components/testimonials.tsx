@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Card } from "@/components/ui/card"
 import { Star } from "lucide-react"
@@ -6,28 +6,28 @@ import { Star } from "lucide-react"
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechStart Inc.",
+      name: "Aarav Patel",
+      role: "Founder, InnovateNow",
       content:
-        "Taxel transformed our digital presence completely. Their attention to detail and innovative approach exceeded all our expectations.",
+        "Texel took our rough concept and turned it into a brand that feels both modern and timeless. Their branding process is incredibly thorough, and the results speak for themselves. We've seen a significant increase in market recognition since the rebrand.",
       rating: 5,
-      avatar: "/professional-woman-portrait.png",
+      avatar: "https://files.photosnepal.com/preview/2022/12/nepali-man-in-elegant-business-suit-professional-headshot-wearing-watch-e2y3gdfqn.jpg?size=large",
     },
     {
-      name: "Michael Chen",
-      role: "Founder, Creative Labs",
+      name: "Sunita Rai",
+      role: "Head of Marketing, Healthful Foods",
       content:
-        "Working with Taxel was a game-changer. They delivered a stunning product that perfectly captured our vision and brand identity.",
+        "The new e-commerce platform Taxel built for us is a masterpiece. It's not only beautiful and easy to navigate, but it has also streamlined our sales process. Our online revenue has grown by 40% in the first quarter after launch. We couldn't be happier.",
       rating: 5,
-      avatar: "/professional-man-portrait.png",
+      avatar: "https://files.photosnepal.com/preview/2022/12/professional-nepali-stock-image-2np7av1fm.jpg?size=large",
     },
     {
-      name: "Emily Rodriguez",
-      role: "Marketing Director, GrowthCo",
+      name: "David Chen",
+      role: "CEO, FinTech Solutions",
       content:
-        "The team at Taxel is exceptional. Their strategic thinking and execution helped us achieve a 300% increase in user engagement.",
+        "The custom dashboard Taxel designed for our financial analytics app is a game-changer. It visualizes complex data in a way that is both intuitive and powerful. Our clients love it, and it has set us apart from the competition.",
       rating: 5,
-      avatar: "/professional-woman-smiling-portrait.png",
+      avatar: "/placeholder-user.jpg",
     },
   ]
 

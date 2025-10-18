@@ -1,30 +1,18 @@
-# Taxel agency website
+# Taxel
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+**Taxel** is a forward-thinking agency that specializes in delivering innovative solutions at the intersection of design and technology. Our team of passionate developers, designers, and strategists work together to bring your ideas to life.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/iamsamshad7-gmailcoms-projects/v0-taxel-agency-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/68E3jzQPUeF)
+## Our Team
 
-## Overview
+- **Siddhaartha Dhakaal (GoruorGoru)** - Backend-Dev
+- **MD Samshad** - UI + Researcher
+- **Affan Alam** - FrontEnd Developer
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Featured Work
 
-## Deployment
+- **AnimeComix**: A vibrant platform for anime and comics enthusiasts.
+- **Inclusiv**: An AI-powered job portal for diverse and accessible roles.
+- **Tuifolio (Learns)**: An interactive terminal portfolio for developers.
+- **FinanciaWise**: A personal finance platform for managing budgets and investments.
 
-Your project is live at:
-
-**[https://vercel.com/iamsamshad7-gmailcoms-projects/v0-taxel-agency-website](https://vercel.com/iamsamshad7-gmailcoms-projects/v0-taxel-agency-website)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/68E3jzQPUeF](https://v0.app/chat/projects/68E3jzQPUeF)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+*This README is a brief overview of our agency and projects. For more details, please visit our website.*

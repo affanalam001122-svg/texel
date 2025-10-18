@@ -42,7 +42,7 @@ export function Services() {
   ]
 
   return (
-    <section id="services" className="py-32 relative overflow-hidden">
+    <section id="services" ref={sectionRef} className="py-32 relative overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 opacity-3">
         <div
           className="absolute inset-0"
@@ -54,7 +54,7 @@ export function Services() {
         />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10" ref={sectionRef}>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className={`text-center space-y-4 mb-16 fade-in-up ${sectionVisible ? "visible" : ""}`}>
             <h2 className="text-5xl md:text-6xl font-bold tracking-tight text-balance">
