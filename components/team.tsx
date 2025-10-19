@@ -10,7 +10,7 @@ const teamMembers = [
     name: "Siddhaartha Dhakaal (GoruorGoru)",
     role: "Backend-Dev",
     bio: "I use Arch btw! I use nvim btw! I use go btw! You have skill issues, I don't",
-    avatar: "https://media.discordapp.net/attachments/1420974677966327858/1428739904845906083/d74c9857-ee04-46cb-9b4d-d0a23bb65503.jpg?ex=68f441fa&is=68f2f07a&hm=d057194e65129f9cfb8490b8d5ca19e0139bbe8c09d14735d59fe37978178f1e&=&format=webp&width=563&height=750",
+    avatar: "/sid.png",
     socials: {
       twitter: "https://x.com/GuruOrGoru",
       instagram: "https://www.instagram.com/guruorgoru0/",
@@ -45,7 +45,7 @@ const teamMembers = [
     name: "MD Samshad",
     role: "UI + Researcher",
     bio: "Jack of all trades, Master of None\nThough often time better than a master of one !",
-    avatar: "https://media.discordapp.net/attachments/1420974677966327858/1428969425738010694/IMG_3179.JPG?ex=68f46efc&is=68f31d7c&hm=54bf0677ce12be694acf18090229977e4aae30ef02e878eadb96f72e5eaa8c93&=&format=webp&width=563&height=750",
+    avatar: "/IMG_3179.JPG",
     socials: {
       twitter: "https://x.com/maybee_vampire",
       instagram: "https://www.instagram.com/maybee_samshad/",
@@ -81,7 +81,7 @@ const teamMembers = [
     name: "Affan Alam",
     role: "FrontEnd Developer",
     bio: "⚡ I’m a full-stack web developer passionate about blending clean, efficient code with stunning, user-focused design. I create modern, responsive, and high-performing websites that deliver a seamless experience across all devices. Inspired by the creativity and strategy of gaming, I bring the same energy into my work — precision, innovation, and a drive to level up every project I build.",
-    avatar: "https://media.discordapp.net/attachments/1420974677966327858/1429024092841050212/486465401_122234136860226544_6999280008318679804_n.jpg?ex=68f4a1e5&is=68f35065&hm=ef230ba6f9a47d82f103b80ac36b12715bd95d9d924cc307215b68550dafb4d6&=&format=webp&width=750&height=750",
+    avatar: "/486465401_122234136860226544_6999280008318679804_n (1).jpg",
     socials: {
       instagram: "https://www.instagram.com/whlegendgamerz_/",
       facebook: "https://www.facebook.com/whlegendgamerz",
