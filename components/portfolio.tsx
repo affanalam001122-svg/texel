@@ -21,14 +21,14 @@ export function Portfolio() {
       title: "Inclusiv",
       category: "Web Application",
       description: "Inclusiv is an AI-powered job portal highlighting diverse, accessible, and flexible roles making job hunting fair and inclusive for everyone.",
-      image: "https://media.discordapp.net/attachments/1420974677966327858/1428957394213408900/screenshot-2025-10-18_09-49-43.png?ex=68f463c7&is=68f31247&hm=48aca132a9639c8b99bc90ede1127ab6a754d6d6f74cd0751dfcae68c25c591c&=&format=webp&quality=lossless&width=1159&height=696",
+      image: "/port.png",
       link: "https://inclusiv.surge.sh",
     },
     {
       title: "Tuifolio",
       category: "SSH-Terrminal Application",
       description: "Tuifolio is an interactive terminal portfolio built with Go and Bubbletea, featuring sections for skills, projects, and contact info a sleek, SSH-accessible way for developers to showcase their work.",
-      image: "https://media.discordapp.net/attachments/1420974677966327858/1428957427528761486/screenshot-2025-10-18_09-50-57.png?ex=68f463cf&is=68f3124f&hm=c4ce3279f8d4d3c3950741825272ba58a3c596fd11040a423dbc0a77ab734cee&=&format=webp&quality=lossless&width=1159&height=696",
+      image: "/learn.png",
       link: "https://github.com/guruorgoru/tuifolio",
     },
     {
